@@ -4,6 +4,8 @@ Spotify is a growing platform for media consumption in the form of music. During
 
 With this application, we take a look at the trends of the most popular 20 songs in each year in 2010s and look at the trends in popular music by looking at length, valence and duration of the most popular songs of that year.
 
+This project was created for the purpouse of seminar submission as part of the curriculum of course Interaction and Information Design at the University of Ljubljana.
+
 ## Sample images:
 
 ![Online Mode](/screenshots/SpotifyTop10s_online.png)
@@ -12,11 +14,11 @@ With this application, we take a look at the trends of the most popular 20 songs
 
 ## Attibute meaning
 
-* *Valence*: How happy the song is.
-* *Speech*: How much words are said in a song.
-* *Lenght*: How long the song is in seconds.
-* *Genre*: Which genre the song belongs to.
-* *Popularity*: How popular the song was in comparassion to others.
+* **Valence**: How what the mood of the song is (the higher the value, the happier the song is).
+* **Speech**: How many words are said in a song.
+* **Lenght**: How long the song is in seconds.
+* **Genre**: Which genre the song belongs to.
+* **Popularity**: How popular the song was in comparison to others.
 
 ## Quick overview
 
@@ -30,7 +32,7 @@ On the right hand side resides the information about the current year, as well a
 
 ## Getting started
 
-In order to be able to use the API, one must generate an OAuth token on the [Spotify Web API](https://developer.spotify.com/web-api/) website, section _Console_, subsection [_Search for Item_](https://developer.spotify.com/console/get-search-item/) and pass it to the application. To generate the token, the user must have a Spotify accoun.
+In order to be able to use the API, one must generate an OAuth token on the [Spotify Web API](https://developer.spotify.com/web-api/) website, section _Console_, subsection [_Search for Item_](https://developer.spotify.com/console/get-search-item/) and pass it to the application. To generate the token, the user must at least have a free Spotify account.
 
 The token is passed to the application as a String to the file SpotifyAPI as a variable _accessToken_.
 
@@ -53,10 +55,12 @@ In front of you is a running application. To scroll trough the years, use either
 
 To view the details of each bubble representing a song, click on in. An informational pannel will pop up and, if the preview is available, the said preview will play. The information pannel also displays the song's cover picture (or more preciselly, the cover of one of the albums the song appears on; if no such cover is found, a placeholder *No picture found* picture is displayed).
 
-# Technology used
+# Technologies used
 
-* Processing 4.x
+* Processing 4.0b1
 * [Spotify Web API Java](https://github.com/spotify-web-api-java)
+
+Dataset used was obtained at Kaggle, [Top Spotify songs from 2010-2019 - BY YEAR](https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year).
 
 # Known problems
 
