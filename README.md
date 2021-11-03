@@ -42,7 +42,7 @@ Paste the token in the file [authtoken](/data/authtoken).
 
 If no such (valid) token is produced, the application goes into offline mode, where the playback of a preview and display of songs' covers are disabled.
 
-To run the application using the Processing IDE, simply click run.
+To run the application using Processing's IDE, simply run the projcet. To run the exported application, find the executable and run it.
 
 ### Using the application
 
