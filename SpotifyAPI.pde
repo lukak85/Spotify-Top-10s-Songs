@@ -7,6 +7,7 @@ import com.wrapper.spotify.model_objects.specification.Paging;
 import com.wrapper.spotify.model_objects.specification.Track;
 import com.wrapper.spotify.requests.data.search.simplified.SearchTracksRequest;
 
+// Temporary token
 String accessToken = "BQAdx08vszl7OwDhfX3PoHgwjFSzHThK25dYUou0CoLw0HojCx0j1Cww9SRAvdK6bx3fxYfKfKQbjasv0Y63Ov5VPGz0WjfcPE5T7ujZCPcVPK48i5zjhKAIfXqjBNctT2L7hLRPGLFkC-XqRji8g2NYdCZJ0j866eI";
 
 SoundFile soundFile;
@@ -18,6 +19,8 @@ boolean connectionToSpotify = false;
 SpotifyApi spotifyApi;
 
 void setupSpotifyAPI() {
+  accessToken = loadStrings("data/authtoken")[0];
+  
   try {
     spotifyApi = new SpotifyApi.Builder()
       .setAccessToken(accessToken)

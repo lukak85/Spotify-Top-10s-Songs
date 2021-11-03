@@ -34,13 +34,7 @@ On the right hand side resides the information about the current year, as well a
 
 In order to be able to use the API, one must generate an OAuth token on the [Spotify Web API](https://developer.spotify.com/web-api/) website, section _Console_, subsection [_Search for Item_](https://developer.spotify.com/console/get-search-item/) and pass it to the application. To generate the token, the user must at least have a free Spotify account.
 
-The token is passed to the application as a String to the file SpotifyAPI as a variable _accessToken_.
-
-Example:
-
-```
-String accessToken = "BQCYQKxnEcbQKY7K6WoRBKhKWWcCT_SLjBCOWCqC0XUv6j5aJMM9nlfsDUDHnry8JVzi6naypjDUcTtPjSuwOlVy-DXz7yArEHMLFvNxULTdFIS5d2WJRa993gMfrUVhO0jUEzN2CvA0VuSa0gjnqWsPFD6YKp7ciIc";
-```
+Paste the token in the file [authtoken](/data/authtoken).
 
 If no such (valid) token is produced, the application goes into offline mode, where the playback of a preview and display of songs' covers are disabled.
 
@@ -66,4 +60,4 @@ Dataset used was obtained at Kaggle, [Top Spotify songs from 2010-2019 - BY YEAR
 
 * When clicking on a particular song and therefore searced using Spotify API, a non-ideal instance of a song is played (i.e. Eminem - Lose Yourself)
 
-### Version 0.1.0
+### Version 0.1.1
