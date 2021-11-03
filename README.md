@@ -65,6 +65,5 @@ Dataset used was obtained at Kaggle, [Top Spotify songs from 2010-2019 - BY YEAR
 # Known problems
 
 * When clicking on a particular song and therefore searced using Spotify API, a non-ideal instance of a song is played (i.e. Eminem - Lose Yourself)
-* Exported application is of low resolution
 
 ### Version 0.1.0
