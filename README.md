@@ -11,6 +11,7 @@ This project was created for the purpouse of seminar submission as part of the c
 <p align="center">
 <img src="screenshots/SpotifyTop10s_online.png" alt="Spotify Top 10s Songs Online" style="width:80%;align:center;"/>
 <br>
+<br>
 <img src="screenshots/SpotifyTop10s_offline.png" alt="Spotify Top 10s Songs Offline" style="width:80%;"/>
 </p>
 
