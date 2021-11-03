@@ -19,7 +19,11 @@ boolean connectionToSpotify = false;
 SpotifyApi spotifyApi;
 
 void setupSpotifyAPI() {
-  accessToken = loadStrings("data/authtoken")[0];
+  try {
+    accessToken = loadStrings("data/authtoken")[0];
+  } catch (Exception e) {
+    println("Error: " + e.getMessage());
+  }
   
   try {
     spotifyApi = new SpotifyApi.Builder()
