@@ -43,7 +43,7 @@ class Song {
     this.sineFrequency = 0.001;
     
     this.c = chooseColor(this.genre, this.val);
-    this.image = loadImage("media_files/No-image-available.png");
+    this.image = loadImage("data/media_files/No-image-available.png");
     this.noImage = true;
     
     averageColor = color(0, 0, 90);

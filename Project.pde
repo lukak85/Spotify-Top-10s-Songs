@@ -43,11 +43,11 @@ void initializeVariables() {
   inDarkMode = false;
   
   try {
-    imageLM = loadImage("media_files/Spotify_Logo_RGB_White.png");
+    imageLM = loadImage("data/media_files/Spotify_Logo_RGB_White.png");
     imageLM.resize(250, 0);
-    imageDM = loadImage("media_files/Spotify_Logo_RGB_Green.png");
+    imageDM = loadImage("data/media_files/Spotify_Logo_RGB_Green.png");
     imageDM.resize(250, 0);
-    imageDMa = loadImage("media_files/Spotify_Logo_RGB_Black.png");
+    imageDMa = loadImage("data/media_files/Spotify_Logo_RGB_Black.png");
     imageDMa.resize(250, 0);
   } catch (Exception e) {
     e.printStackTrace();
@@ -62,7 +62,7 @@ void setup() {
   }
   
   try {
-    topSongs = loadTable("spotify_data/top10s.csv", "header");
+    topSongs = loadTable("data/spotify_data/top10s.csv", "header");
     
     try {
       for(TableRow row : topSongs.rows()){
