@@ -2,7 +2,9 @@
 
 Spotify is a growing platform for media consumption in the form of music. During the 2010s, different songs have topped the lists as one of the most popular songs on the platform.
 
-With this application, we take a look at the trends of the most popular 20 songs in each year in 2010s and look at the trends in popular music by looking at length, valence and duration of the most popular songs of that year.
+With this application, we take a look at the trends of the 15 most popular songs in each year in 2010s and look at the trends in popular music by looking at length, valence and duration of the most popular songs of that year.
+
+In the end, we saw that even though the lenght, valence and speech didn't change much during the years, there was a shift to a lesser lenght of songs in the last 2 years. We can also notice the steady increase of the popularity of the platform itself.
 
 This project was created for the purpouse of seminar submission as part of the curriculum of course Interaction and Information Design at the University of Ljubljana.
 
